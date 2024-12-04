@@ -51,6 +51,7 @@ function Bills() {
           Bill
         </Typography>
         <TextField
+          type="number"
           slotProps={{
             input: {
               startAdornment: (
@@ -100,6 +101,7 @@ function Bills() {
           Number of People
         </Typography>
         <TextField
+          type="number"
           placeholder="0"
           value={people === 0 ? "" : people}
           onChange={handlePeopleChange}
