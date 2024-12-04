@@ -11,7 +11,7 @@ function Total() {
         borderRadius: "18px",
         width: "100%",
         maxWidth: { xs: 300, sm: 420, md: 280 }, // Restrict width for proper centering
-        mx: "auto", // Rounded corners
+        mx: "auto", // Rounded corners yeah
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", // Subtle shadow
         marginTop: { xs: "20px", sm: 0 },
       }}
